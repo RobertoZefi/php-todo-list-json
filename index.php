@@ -16,10 +16,10 @@
         <div class="container">
             <h1 class="text-center fs-1 py-3" >Todo List</h1>
 
-            <input type="text" placeholder="Inserisci Task" class="form-control mb-5">
+            <input type="text" placeholder="Inserisci Task" class="form-control mb-5" v-model="newTask"  @keyup.enter="addNewTask">
 
             <ul class="list-group">
-                <li v-for="el in tasks" class="list-group-item">{{ el }}</li>
+                <li v-for="el in tasks" class="list-group-item" @click="changeTrueFalse(el)" :class="">{{ el.text }}</li>
             </ul>
 
         </div>

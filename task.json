@@ -1,6 +1,1 @@
-[
-    "html",
-    "Javascript",
-    "Vue",
-    "php"
-]
+[{"text":"html","status":true},{"text":"css","status":true},{"text":"javascript","status":true},{"text":"vue","status":true},{"text":"php","status":true},{"text":"vite","status":true},{"text":"ciao","status":"true"},{"text":"bella","status":"true"},{"text":"mamma","status":"true"}]
